@@ -1,0 +1,35 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-color: #7e57c2;
+  width: 8%;
+  border-radius: 10px;
+  color: #ccc;
+  font-size: 12px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  z-index: 999;
+  animation: moving 2s;
+}
+
+.item {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: white;
+  font-size: 13px;
+}
+
+@keyframes moving {
+  from {
+    right: 100%;
+  }
+  to {
+    right: 5%;
+  }
+}
