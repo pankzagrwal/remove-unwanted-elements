@@ -9,7 +9,6 @@
       "default_icon": "icon.png",
       "default_title": "Click to remove elements"
     },
-    "permissions": ["activeTab", "scripting"],
     "background": {
       "service_worker": "background.js"
     },
